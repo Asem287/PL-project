@@ -23,6 +23,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+
+    margin-bottom: 76px;
 }
 
 
@@ -53,6 +55,47 @@ body {
 }
 
 
-/* Nav /*
+.nav-list{
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 14px;
+}
 
 
+.nav-link{
+    color: #000;
+}
+
+
+.nav-link.active {
+    color: #606060;
+}
+
+
+
+/*  Header content */
+
+.header-row {
+    display: flex; justify-content: space-between;
+    column-gap: 30px;
+}
+
+.header-content {
+    margin-top: 124px;
+    max-width: 500px;
+}
+
+
+.header-heading{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 44px;
+}
+
+
+.header-content p{
+    line-height: 2;
+
+
+}
