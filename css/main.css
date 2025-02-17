@@ -90,6 +90,10 @@ body {
     font-size: 14px;
 }
 
+.nav-button{
+    display: none;
+}
+
 
 .nav-link{
     color: #000;
