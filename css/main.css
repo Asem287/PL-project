@@ -3,7 +3,8 @@
 
 body {
     color: black;
-    font-family: 'Poppins' sans-serif; 
+    font-family: 'Poppins' sans-serif;
+       
 }
 
 .container {
@@ -99,3 +100,36 @@ body {
 
 
 }
+
+
+
+/* Service */
+
+.services {
+   padding: 90px 0;
+}
+
+.service-row{
+    display: flex;
+    column-gap: 30px;
+}
+
+.service-card{
+  
+}
+
+.service-card img{
+    margin-bottom: 30px;
+    
+}
+
+.service-card-title{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.servise-card p {
+    line-height: 2;
+} 
